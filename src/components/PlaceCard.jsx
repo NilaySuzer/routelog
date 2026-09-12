@@ -70,14 +70,14 @@ export default function PlaceCard({ place, onEdit, onDelete, onToggleStatus }) {
         <div className="flex items-center justify-end gap-1.5 pt-4 mt-4 border-t border-slate-100">
           <button 
             onClick={() => onEdit(place)}
-            className="flex items-center gap-1 text-xs font-semibold px-3 py-1.5 rounded-lg text-slate-600 hover:text-teal-700 hover:bg-teal-50 transition"
+            className="flex items-center gap-1 text-xs font-semibold px-3 py-1.5 rounded-lg text-blue-600 hover:text-teal-700 hover:bg-teal-50 transition"
           >
             <Edit3 size={13} />
             <span>Düzenle</span>
           </button>
           <button 
             onClick={() => onDelete(place.id)}
-            className="flex items-center gap-1 text-xs font-semibold px-3 py-1.5 rounded-lg text-slate-500 hover:text-rose-600 hover:bg-rose-50 transition"
+            className="flex items-center gap-1 text-xs font-semibold px-3 py-1.5 rounded-lg text-red-500 hover:text-rose-600 hover:bg-rose-50 transition"
           >
             <Trash2 size={13} />
             <span>Sil</span>
